@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Information</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Amiri:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Amiri', serif;
+            text-align: center;
+            margin: 50px;
+            color: #722F37; /* Maroon for general text */
+        }
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        .wifi-info {
+            font-size: 18px;
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif; /* Softer font for English */
+            color: #666666; /* Gray color for text */
+        }
+        .wifi-info .bold {
+            font-weight: bold; /* Only WiFi name and password bold */
+            color: #666666; /* Keep them in gray */
+        }
+        .qr-code {
+            margin-top: 15px;
+        }
+        .welcome-message {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center; /* Ensure it's centered */
+            direction: rtl; /* Maintain correct Arabic alignment */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="Leema_logo.jpg" alt="Leema Hotel Logo" class="logo">
+        <h2>فندق ليمة الذهبي</h2> <!-- Arabic hotel name -->
+        <div class="wifi-info">
+            <p>WIFI Name: <span class="bold">lemahotel</span></p>
+            <p>WIFI Password: <span class="bold">M@123456</span></p>
+        </div>
+        <div class="qr-code">
+            <img src="qrcode.png" alt="QR Code">
+        </div>
+        <p class="welcome-message">!نتمنى لكم إقامة سعيدة</p> <!-- Welcome message -->
+    </div>
+
+</body>
+</html>
